@@ -1,5 +1,5 @@
 import React from 'react'
-import FooterPage from '../components/FooterPage'
+// import FooterPage from '../components/FooterPage'
 import FullStack from '../assets/image/FullStack.png'
 
 
@@ -18,7 +18,7 @@ const Skills = () => {
           <p className="text-2xl text-center font-bold my-5 text-[#50e0fa]">Git, Github, Vercel, Postman, TailwindCSS, Figma, Ajax, Flask, JQuery, Bootstrap, Jinja</p>
         </div>
       </div>
-      <FooterPage />
+      {/* <FooterPage /> */}
     </div>
   )
 }

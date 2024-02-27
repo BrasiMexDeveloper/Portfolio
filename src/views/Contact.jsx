@@ -1,5 +1,5 @@
 import React from 'react'
-import FooterPage from '../components/FooterPage'
+// import FooterPage from '../components/FooterPage'
 import Coding6 from '../assets/image/coding6.jpg'
 
 const Contact = () => {
@@ -16,7 +16,7 @@ const Contact = () => {
           <p className="text-2xl font-bold my-3 text-[#50e0fa]">Phone: 206-617-0191</p>
         </div>
       </div>
-      <FooterPage />
+      {/* <FooterPage /> */}
     </div>
   )
 }

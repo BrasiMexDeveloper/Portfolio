@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { UilBars, UilTimes } from '@iconscout/react-unicons';
 import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import Logo from '../assets/image/logo.png';
 
 const NavaBar = () => {
@@ -29,7 +30,7 @@ const NavaBar = () => {
             <div className="flex-shrink-0 flex items-center">
               <Link to='/' className="flex items-center">
                 <img className="h-20 w-auto sm:h-24 p-2" src={Logo} alt="Full Stack Developer" />
-                <div>
+                <div className="hover:opacity-80">
                   <h1 className="text-[#50e0fa] md:text-4xl text-xl ml-3">Victor Villagrana</h1>
                   <p className="text-[#50e0fa] md:text-2xl text-sm ml-3">Full Stack Developer</p>
                 </div>
@@ -37,10 +38,10 @@ const NavaBar = () => {
             </div>
             <div className="hidden sm:block sm:ml-12">
               <div className="flex space-x-6">
-                <a href="/about" className="mt-1 block px-2 py-1 text-white text-xl font-semibold rounded hover:bg-gray-600 hover:text-[#50e0fa] sm:mt-0 sm:ml-2 cursor-pointer">About</a>
-                <a href="/contact" className="mt-1 block px-2 py-1 text-white text-xl font-semibold rounded hover:bg-gray-600 hover:text-[#50e0fa] sm:mt-0 sm:ml-2 cursor-pointer">Contact</a>
-                <a href="/skills" className="mt-1 block px-2 py-1 text-white text-xl font-semibold rounded hover:bg-gray-600 hover:text-[#50e0fa] sm:mt-0 sm:ml-2 cursor-pointer">Skills</a>
-                <a href="/projects" className="mt-1 block px-2 py-1 text-white text-xl font-semibold rounded hover:bg-gray-600 hover:text-[#50e0fa] sm:mt-0 sm:ml-2 cursor-pointer">Projects</a>
+                <ScrollLink to="about" smooth={true} className="mt-1 block px-2 py-1 text-white text-xl font-semibold rounded hover:bg-gray-600 hover:text-[#50e0fa] sm:mt-0 sm:ml-2 cursor-pointer">About</ScrollLink>
+                <ScrollLink to="contact" smooth={true} className="mt-1 block px-2 py-1 text-white text-xl font-semibold rounded hover:bg-gray-600 hover:text-[#50e0fa] sm:mt-0 sm:ml-2 cursor-pointer">Contact</ScrollLink>
+                <ScrollLink to="skills" smooth={true} className="mt-1 block px-2 py-1 text-white text-xl font-semibold rounded hover:bg-gray-600 hover:text-[#50e0fa] sm:mt-0 sm:ml-2 cursor-pointer">Skills</ScrollLink>
+                <ScrollLink to="projects" smooth={true} className="mt-1 block px-2 py-1 text-white text-xl font-semibold rounded hover:bg-gray-600 hover:text-[#50e0fa] sm:mt-0 sm:ml-2 cursor-pointer">Projects</ScrollLink>
               </div>
             </div>
           </div>

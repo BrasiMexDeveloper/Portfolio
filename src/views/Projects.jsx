@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import FooterPage from '../components/FooterPage'
+// import FooterPage from '../components/FooterPage'
 import Coding4 from '../assets/image/coding4.jpg'
 // ? Fabiana Fabulous Cleaning Service LLC
 import Fabulous from '../assets/image/fabulous.png'
@@ -40,7 +40,8 @@ const Projects = () => {
                     <img src={Fabulous2} alt="Fabiana Fabulous Cleaning Service LLC" className="w-96 h-96" />
                     <img src={Fabulous3} alt="Fabiana Fabulous Cleaning Service LLC" className="w-96 h-96" />
                   </Carousel>
-                  <p></p>
+                  <p className="text-xl font-light p-2 text-start">A responsive website created for privated cleaning services businesse, 
+                  built using React, Firebase, NodeJS, Express, Cors, and TailwindCSS.</p>
                 </div>
               </div>
             </div>
@@ -55,6 +56,8 @@ const Projects = () => {
                     <img src={Weather2} alt="Weather Forecast" className="w-96 h-96 " />
                     <img src={Weather3} alt="Weather Forecast" className="w-96 h-96 " />
                   </Carousel>
+                  <p className="text-xl font-light p-2 text-start">A desktop React Application  for daily use on your laptop built using React, 
+                  JavaScript, CSS, Tailwind, and OpenWeatherMap  API. </p>
                 </div>
               </div>
             </div>
@@ -71,6 +74,7 @@ const Projects = () => {
                     <img src={RoadMap4} alt="Off Road Map" className="w-96 h-96 " />
                     <img src={RoadMap5} alt="Off Road Map" className="w-96 h-96 " />
                   </Carousel>
+                  <p className="text-xl font-light p-2 text-start">An application for adventure enthusiasts, built using Python, Javascript, Flask, Bootstrap and Bcrypt.</p>
                 </div>
               </div>
             </div>
@@ -86,14 +90,14 @@ const Projects = () => {
                     <img src={ECommerce3} alt="E-Commerce App" className="w-96 h-96 " />
                     <img src={ECommerce4} alt="E-Commerce App" className="w-96 h-96 " />
                   </Carousel>
+                  <p className="text-xl font-light p-2 text-start">A commerce app that  could be used for small businesses to track  their inventory, built using C-SHARP and Bootstrap.</p>
                 </div>
               </div>
             </div>
           </a>
         </div>
       </div>
-      <FooterPage />
-
+      {/* <FooterPage /> */}
     </div>
 
   )
