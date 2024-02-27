@@ -24,7 +24,7 @@ import ECommerce3 from '../assets/image/ECommerce3.png'
 import ECommerce4 from '../assets/image/ECommerce4.png'
 const Projects = () => {
   return (
-    <div className="container bg-gray-900">
+    <div className=" bg-gray-900">
       <div className="flex flex-col items-center justify-center">
         <img src={Coding4} alt="coding" className="w-full h-96 object-cover" />
         <h1 className="text-4xl font-bold mt-10 text-[#50e0fa]">Projects</h1>

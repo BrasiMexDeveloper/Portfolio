@@ -4,7 +4,7 @@ import Coding6 from '../assets/image/coding6.jpg'
 
 const Contact = () => {
   return (
-    <div className="container bg-gray-900">
+    <div className="bg-gray-900">
       <div className="flex flex-col items-center justify-center">
         <img src={Coding6} alt="coding" className="w-full h-96 object-cover" />
         <h1 className="text-4xl font-bold mt-10 text-[#50e0fa]">Contact</h1>

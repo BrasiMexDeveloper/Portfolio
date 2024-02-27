@@ -4,7 +4,7 @@ import FooterPage from '../components/FooterPage'
 
 const About = () => {
   return (
-    <div className="container bg-gray-900">
+    <div className=" bg-gray-900">
         <div className="">
           <img src={Coding5} alt="coding" className="w-full h-96 object-cover" />
           <h1 className="flex justify-center font-bold text-3xl my-7 text-[#50e0fa]">About Me!</h1>

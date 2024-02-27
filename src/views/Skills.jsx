@@ -5,7 +5,7 @@ import FullStack from '../assets/image/FullStack.png'
 
 const Skills = () => {
   return (
-    <div className="container bg-gray-900">
+    <div className="bg-gray-900">
       <img src={FullStack} alt="Html" className="w-full h-96 " />
       <div className="p-2 py-1">
         <h1 className="text-4xl font-bold my-6 text-[#50e0fa] text-center">Skills</h1>
