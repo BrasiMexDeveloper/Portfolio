@@ -37,7 +37,7 @@ const NavaBar = () => {
     <nav className="bg-gray-900" ref={node}>
       <div className="">
         <div className="relative flex items-center justify-around h-24">
-          <div className="absolute inset-y-0 right-5 flex items-center sm:hidden">
+          <div className="absolute inset-y-0 right-3 flex items-center ">
             <button onClick={toggleMenu} className="sm:hidden lg:hidden">
               {isOpen ?
                 <UilTimes className='text-4xl ml-2 mt-2' onClick={() => setIsOpen(!isOpen)} size='50' color="#50e0fa" /> :
@@ -45,7 +45,7 @@ const NavaBar = () => {
               }
             </button>
           </div>
-          <div className="flex-1 flex items-center md:justify-between p-5  ">
+          <div className="flex-1 flex items-center md:justify-between m-5 ">
             <div className="flex-shrink-0 ">
               <Link to='/' className="flex items-center">
                 <img className="h-20 w-auto sm:h-24 p-2" src={Logo} alt="Full Stack Developer" />
