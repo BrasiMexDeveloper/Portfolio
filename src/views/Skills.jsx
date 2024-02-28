@@ -15,7 +15,8 @@ const Skills = () => {
           <p className="text-2xl text-center font-bold my-5 text-[#50e0fa]">Backend:</p>
           <p className="text-2xl text-center font-bold my-5 text-[#50e0fa]">Node.js, Express, MongoDB, Mongoose, PostgreSQL, Sequelize, Firebase, MySQL</p>
           <p className="text-2xl text-center font-bold my-5 text-[#50e0fa]">Tools:</p>
-          <p className="text-2xl text-center font-bold mt-5 mb-10 text-[#50e0fa]">Git, Github, Vercel, Postman, TailwindCSS, Figma, Ajax, Flask, JQuery, Bootstrap, Jinja</p>
+          <p className="text-2xl text-center font-bold my-5 text-[#50e0fa]">Git, Github, Vercel, Postman, TailwindCSS, Figma, Ajax, Flask, JQuery, Bootstrap, Jinja</p>
+          <p className="text-2xl text-center font-bold mt-5 mb-10 text-[#50e0fa]">And Learning . . . . .</p>
         </div>
       </div>
       {/* <FooterPage /> */}
@@ -24,3 +25,4 @@ const Skills = () => {
 }
 
 export default Skills
+
