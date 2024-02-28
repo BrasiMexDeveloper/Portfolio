@@ -13,7 +13,7 @@ const Contact = () => {
           <a href="mailto:victorsoftwareeng@gmail.com" className="text-2xl font-bold my-3 text-[#50e0fa]">victorsoftwareeng@gmail.com</a>
           <p className="text-2xl font-bold my-3 text-[#50e0fa]">LinkedIn:</p>
           <a href='https://www.linkedin.com/in/victor-villagrana/' target='_blank' rel='noreferrer' className="text-2xl font-bold my-3 text-[#50e0fa]">linkedin.com/in/victor-villagrana/</a>
-          <p className="text-2xl font-bold my-3 text-[#50e0fa]">Phone: 206-617-0191</p>
+          <p className="text-2xl font-bold mt-3 mb-10 text-[#50e0fa]">Phone: 206-617-0191</p>
         </div>
       </div>
       {/* <FooterPage /> */}
