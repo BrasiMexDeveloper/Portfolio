@@ -26,14 +26,14 @@ const BackToTopButtom = () => {
   };
 
   return (
-    <div className="p-2 flex justify-end ">
+    <div className="p-2 flex justify-start ">
       {backToTop && (
         <motion.button
           title='Back to top'
           whileHover={{ scale: 1.3 }}
           whileTap={{ scale: 0.9 }}
           onClick={ToTop}
-          className="fixed bottom-4  transform-translate-x-1/2 z-50   text-[#ffffff] border rounded-full bg-black opacity-50">
+          className="fixed bottom-4 left-4 z-50 text-[#ffffff] border rounded-full bg-black opacity-50">
           <UilAngleUp />
         </motion.button>
       )}

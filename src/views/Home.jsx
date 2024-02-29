@@ -6,6 +6,7 @@ import Projects from '../views/Projects'
 import Contact from '../views/Contact'
 import BackToTopButtom from '../components/BackToTopButtom'
 import FooterPage from '../components/FooterPage'
+import ChatNow from '../components/ChatNow'
 
 
 const home = () => {
@@ -23,6 +24,9 @@ const home = () => {
       </div>
       <BackToTopButtom />
       <FooterPage />
+      <div className='p-2'>
+        <ChatNow />
+      </div>
     </div>
   )
 }

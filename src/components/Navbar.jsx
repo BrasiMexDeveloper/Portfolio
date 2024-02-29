@@ -67,7 +67,7 @@ const NavaBar = () => {
         </div>
       </div>
       {/* //? Mobile menu, show/hide based on menu state. */}
-      <div className={`${isOpen ? 'bg-[#50e0fa]  translate-x-0 ease-out ' : 'bg-gray-900 translate-x-full ease-in h-0'} sm:hidden  transition transform duration-300`}>
+      <div className={`${isOpen ? 'bg-gradient-colors  translate-x-0 ease-out ' : 'bg-gray-900 translate-x-full ease-in h-0'} sm:hidden  transition transform duration-300`}>
         <div className="px-2 pt-2 pb-3 space-y-1">
           <ScrollLink to="about" smooth={true} className="mt-1 block px-2 py-1 text-white text-xl font-semibold rounded hover:bg-gray-600 hover:text-[#50e0fa] sm:mt-0 sm:ml-2 cursor-pointer">About</ScrollLink>
           <ScrollLink to="contact" smooth={true} className="mt-1 block px-2 py-1 text-white text-xl font-semibold rounded hover:bg-gray-600 hover:text-[#50e0fa] sm:mt-0 sm:ml-2 cursor-pointer">Contact</ScrollLink>

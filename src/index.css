@@ -7,3 +7,87 @@
   padding: 0;
   box-sizing: border-box;
 }
+.chatnow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #50e0fa;
+  height: 100vh;
+}
+
+.chatnow__logo {
+  margin-bottom: 20px;
+}
+
+
+
+.chatnow__title {
+  margin-bottom: 20px;
+}
+
+.chatnow__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.chatnow__form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatnow__form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.chatnow__form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+.chatnow__toggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #bde4ff;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.chatnow__form {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  width: 500px; /* Or any width you want */
+  height: 400px; /* Or any height you want */
+  overflow: auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #50e0fa;
+}
+.review-card {
+  border: 1px solid #50e0fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
